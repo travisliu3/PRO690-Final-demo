@@ -1,0 +1,57 @@
+# Kubernetes config files
+*.kubeconfig
+.kube/
+.kubectl/
+
+# Ignore Argo CD application manifests
+argo-cd/*.yaml
+argocd/*.yaml
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore Docker-related files
+*.env
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+Dockerfile
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore secrets
+secrets.yaml
+*.secrets
+*.key
+*.crt
+
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
